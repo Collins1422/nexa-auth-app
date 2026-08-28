@@ -19,7 +19,7 @@ export default function SignupPage() {
         data: {
           full_name: fullName,
         },
-        emailRedirectTo: "http://localhost:3000/login",
+       emailRedirectTo: "https://nexa-auth-app.onrender.com/login",
       },
     });
     if (error) {
